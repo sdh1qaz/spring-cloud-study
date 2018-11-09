@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.dhsu.spring</groupId>
-	<artifactId>springboot-app</artifactId>
+	<artifactId>hello-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>springboot-app</name>
-	<description>springboot-app</description>
+	<name>HELLO-SERVICE</name>
+	<description>Eureka 中的服务生产者应用</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>

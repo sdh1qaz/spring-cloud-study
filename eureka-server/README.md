@@ -6,3 +6,9 @@
 3.在C:\Windows\System32\drivers\etc\hosts 下面配置
    127.0.0.1 peer1
    127.0.0.1 peer2
+   
+4.run.bat 启动脚本，启动2个eureka-server服务，2个hello-service服务，1个consumer服务
+   eureka-server-0.0.1-SNAPSHOT.jar
+   hello-service-0.0.1-SNAPSHOT.jar
+   ribbon-consumer-0.0.1-SNAPSHOT.jar
+  3个jar需要放在一个目录下

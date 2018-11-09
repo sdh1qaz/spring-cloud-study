@@ -9,9 +9,10 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.web.client.RestTemplate;
 
 //让该应用注册为Eureka客户端应用，以获得服务发现的能力
+
 @EnableDiscoveryClient
 @SpringBootApplication
-@ComponentScan(basePackages = { "com.ribbon.controller"})
+@ComponentScan(basePackages = { "com.ribbob.controller"})
 public class RibbonConsumerApplication {
 	
 	@Bean

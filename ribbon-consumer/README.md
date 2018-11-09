@@ -1,3 +1,5 @@
 1.创建ConsumerController类实现/ribbon-consumer接口。在该接口中，通过在已创建的RestTemplate来实现对HELLO-SERVICE服务
 提供的/hello接口进行调用。可以看到这里访问的地址是服务名HELLO-SERVICE，而不是一个具体的地址，在服务治理体系中，这是一个非常重要的
 特性。
+
+2.通过   http://localhost:9000/ribbon-consumer 发起GET请求，在此get请求中访问了HELLO-SERVICE服务。
